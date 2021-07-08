@@ -1,0 +1,135 @@
+//desenvolvi junto com o gustavo brito
+/////////////////////////////////////
+
+
+/////////
+ativ 1 
+/////////
+void main() {
+  
+for (int i = 0; i < 100; i++) {
+
+    print('Número ${i + 1}  vez(es)');
+  
+}
+
+}
+
+
+/////////
+ativ 2
+////////
+void main() {
+  
+List lista = [
+  1, 2, 3, 4, 5, 6, 7,8, 9, 10
+  ];
+  
+print(lista);
+ 
+ 
+}
+
+
+/////////
+ativ 3
+////////
+void main (){
+  
+for (int i = 0; i <= 600; i++){
+  
+  print(i * 2);
+ 
+ }
+
+}
+
+
+/////////
+ativ 4
+////////
+void main() {
+  
+const List numeros_pares = [2, 4, 6, 8, 10];
+ 
+
+ for (int num in numeros_pares) {
+    
+
+print(num);
+  
+}
+
+}
+
+/////////
+ativ 5
+////////
+void main (){
+  List<int> medias = [7, 8, 6, 8, 3, 8, 9, 10, 9, 6];
+  
+  for(int num in medias){
+    print(num);
+  }
+  
+} 
+
+/////////
+ativ 6
+////////
+void main(){
+  for(int tabuada = 0; tabuada<=50; tabuada+=7)
+   {
+    print(tabuada);
+  }
+  
+  
+}
+
+/////////
+ativ 7
+////////
+void main() {
+  
+String lista = "1.60, 
+1.90, 
+1.59, 
+1.92, 
+1.76, 
+1.79, 
+1.88, 
+2.00, 
+1.80, 
+1.77, 
+1.80, 
+1.70, 
+1.90, 
+1.60, 
+1,71";
+  
+
+List<String> listaDeJogadores = lista.split(',');
+
+
+  var soma;
+
+
+  print(soma=1.60+1.90+1.59+1.92+1.76+1.79+1.88+2.00+1.80+1.77+1.80+1.70+1.90+1.60+1.71);
+  print(soma/15);
+  
+}
+
+/////////
+ativ 8
+////////
+void main() {  
+  int soma = 2;
+  String result = '2';
+  
+  for( int i = 1; i <= 5; i++){
+    result =' ${i}';
+    soma = soma * i;
+    print('$result = $soma');
+  }
+  
+}
